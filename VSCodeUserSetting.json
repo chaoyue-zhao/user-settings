@@ -1,103 +1,98 @@
-{"workbench.iconTheme": "vscode-icons",
-// User Setting
-"workbench.settings.editor": "json",
-"workbench.settings.useSplitJSON": true,
-// Font Setup
-"editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
-"editor.fontLigatures": true,
-"terminal.integrated.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
-"editor.fontSize": 14,
-"terminal.integrated.fontSize": 14,
-"editor.lineHeight": 20,
-"editor.fontWeight": "400",
-"editor.letterSpacing": 0.5,
-"workbench.fontAliasing": "auto",
-// UI Improvements
-"editor.minimap.enabled": false,
-"explorer.openEditors.visible": 1,
-"workbench.startupEditor": "newUntitledFile",
-"explorer.confirmDragAndDrop": true,
-"editor.codeLens": false,
-"editor.snippetSuggestions": "top",
-"editor.tabCompletion": "on",
-"editor.quickSuggestionsDelay": 0,
-"editor.multiCursorModifier": "ctrlCmd",
-"terminal.integrated.macOptionIsMeta": true,
-"workbench.editor.enablePreview": false,
-"editor.wordWrap": "on",
-"debug.toolBarLocation": "docked",
-"workbench.editor.tabCloseButton": "off",
-"terminal.integrated.drawBoldTextInBrightColors": false,
-"editor.rulers": [
-  80,
-  100,
-  120
-],
-// Whitespace Command Setup
-"editor.renderWhitespace": "all",
-"files.trimTrailingWhitespace": true,
-"files.trimFinalNewlines": true,
-"diffEditor.ignoreTrimWhitespace": true,
-"gitlens.gitCommands.closeOnFocusOut": true,
-"macros": {
-  "collapseAndClose": [
-    "workbench.files.action.collapseExplorerFolders",
-    "workbench.action.closeAllEditors"
-  ]
-},
-"files.insertFinalNewline": true,
-// Git
-"git.autofetch": true,
-// GitLens
-"gitlens.hovers.enabled": false,
-"gitlens.keymap": "alternate",
-// Emmet
-"emmet.includeLanguages": {
-  "javascript": "javascriptreact",
-  "vue-html": "html"
-},
-"emmet.triggerExpansionOnTab": true,
-// Highlight Matching Tag
-"highlight-matching-tag.styles": {
-  "opening": {
-    "backgroundColor": "rgba(165, 153, 233, 0.3)"
-  }
-},
-// Formatting
-"editor.formatOnSave": true,
-"editor.formatOnPaste": true,
-"prettier.requireConfig": false,
-// Markdown
-"[markdown]": {
-  "editor.formatOnPaste": false,
-  "editor.quickSuggestions": true
-},
-"files.defaultLanguage": "markdown",
-// Javascript
-"npm.enableScriptExplorer": true,
-// ESLint
-"eslint.alwaysShowStatus": true,
-// Prettier
-"prettier.printWidth": 120,
-"prettier.useTabs": true,
-"editor.defaultFormatter": "esbenp.prettier-vscode",
-"editor.tabSize": 2,
-"window.zoomLevel": 0,
-"typescript.updateImportsOnFileMove.enabled": "always",
-"javascript.updateImportsOnFileMove.enabled": "always",
-"editor.suggestSelection": "first",
-"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-// Extensions
-"open-in-browser.default": "firefox",
-// Search
-"search.exclude": {
-  "**/node_modules": true,
-  "**/bower_components": true,
-  "**/coverage": true,
-  "**/dist": true,
-  "**/build": true,
-  "**/.build": true,
-  "**/.gh-pages": true
-},
-"workbench.colorTheme": "Shades of Purple"
+{
+	"workbench.iconTheme": "vscode-icons",
+	// User Setting
+	"workbench.settings.editor": "json",
+	"workbench.settings.useSplitJSON": true,
+	// Font Setup
+	"editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
+	"editor.fontLigatures": true,
+	"terminal.integrated.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
+	"editor.fontSize": 14,
+	"terminal.integrated.fontSize": 14,
+	"editor.lineHeight": 20,
+	"editor.fontWeight": "400",
+	"editor.letterSpacing": 0.5,
+	"workbench.fontAliasing": "auto",
+	// UI Improvements
+	"editor.minimap.enabled": false,
+	"explorer.openEditors.visible": 1,
+	"workbench.startupEditor": "newUntitledFile",
+	"explorer.confirmDragAndDrop": true,
+	"editor.codeLens": false,
+	"editor.snippetSuggestions": "top",
+	"editor.tabCompletion": "on",
+	"editor.quickSuggestionsDelay": 0,
+	"editor.multiCursorModifier": "ctrlCmd",
+	"terminal.integrated.macOptionIsMeta": true,
+	"workbench.editor.enablePreview": false,
+	"editor.wordWrap": "on",
+	"debug.toolBarLocation": "docked",
+	"workbench.editor.tabCloseButton": "off",
+	"terminal.integrated.drawBoldTextInBrightColors": false,
+	"editor.rulers": [80, 100, 120],
+	// Whitespace Command Setup
+	"editor.renderWhitespace": "all",
+	"files.trimTrailingWhitespace": true,
+	"files.trimFinalNewlines": true,
+	"diffEditor.ignoreTrimWhitespace": true,
+	"gitlens.gitCommands.closeOnFocusOut": true,
+	"macros": {
+		"collapseAndClose": ["workbench.files.action.collapseExplorerFolders", "workbench.action.closeAllEditors"]
+	},
+	"files.insertFinalNewline": true,
+	// Git
+	"git.autofetch": true,
+	// GitLens
+	"gitlens.hovers.enabled": false,
+	"gitlens.keymap": "alternate",
+	// Emmet
+	"emmet.includeLanguages": {
+		"javascript": "javascriptreact",
+		"vue-html": "html"
+	},
+	"emmet.triggerExpansionOnTab": true,
+	// Highlight Matching Tag
+	"highlight-matching-tag.styles": {
+		"opening": {
+			"backgroundColor": "rgba(165, 153, 233, 0.3)"
+		}
+	},
+	// Formatting
+	"editor.formatOnSave": true,
+	"editor.formatOnPaste": true,
+	"prettier.requireConfig": false,
+	// Markdown
+	"[markdown]": {
+		"editor.formatOnPaste": false,
+		"editor.quickSuggestions": true
+	},
+	"files.defaultLanguage": "markdown",
+	// Javascript
+	"npm.enableScriptExplorer": true,
+	// ESLint
+	"eslint.alwaysShowStatus": true,
+	// Prettier
+	"prettier.printWidth": 120,
+	"prettier.useTabs": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.tabSize": 2,
+	"window.zoomLevel": 1,
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"editor.suggestSelection": "first",
+	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+	// Extensions
+	"open-in-browser.default": "firefox",
+	// Search
+	"search.exclude": {
+		"**/node_modules": true,
+		"**/bower_components": true,
+		"**/coverage": true,
+		"**/dist": true,
+		"**/build": true,
+		"**/.build": true,
+		"**/.gh-pages": true
+	},
+	"workbench.colorTheme": "Shades of Purple",
+	"vsicons.dontShowNewVersionMessage": true
 }
